@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-RUN apk add --update --no-cache ca-certificates
+RUN apk add --no-cache freetds-dev ca-certificates
